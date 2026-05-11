@@ -19,6 +19,8 @@ export interface Product {
     product_id: number;
     title: string;
     handle: string;
+    description?: string;
+    warranty_months?: number;
     hl_cpu?: string;
     hl_ram?: string;
     hl_ssd?: string;

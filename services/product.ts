@@ -1,11 +1,6 @@
 import apiClient from '@/lib/axios';
 import {ProductResponse} from "@/types/product";
 
-export const getCategories = async () => {
-    const response = await apiClient.get('/api/v1/products/categories');
-    return response.data;
-};
-
 export const getBrands = async () => {
     const response = await apiClient.get('/api/v1/products/brands');
     return response.data;

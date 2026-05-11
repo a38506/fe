@@ -1,5 +1,6 @@
 import {getBanners} from '@/services/banner';
-import {getBrands, getCategories, getProducts} from '@/services/product';
+import {getBrands, getProducts} from '@/services/product';
+import {getCategories} from '@/services/category';
 import HeroSection from "@/components/home/HeroSection";
 import BrandSection from "@/components/home/BrandSection";
 import HomePopup from "@/components/home/HomePopup";

@@ -24,7 +24,7 @@ export default function ProductCard({product}: { product: Product }) {
 
     return (
         <Link
-            href={`/product/${product.handle}`}
+            href={`/products/${product.handle}`}
             className="group flex flex-col bg-white rounded-xl border border-gray-100 hover:border-blue-500 hover:shadow-xl transition-all duration-300 p-3 md:p-4 h-full relative"
         >
             {discountPercent > 0 && (
